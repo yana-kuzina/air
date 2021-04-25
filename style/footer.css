@@ -1,6 +1,7 @@
 .footer {
   padding-top: 20px;
-  background: linear-gradient(grey, blue, white);
+  background: rgb(208, 208, 245);
+  color: black;
   padding-bottom: 20px;
   margin-bottom: -40px;
 }
