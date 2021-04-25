@@ -13,13 +13,37 @@
   <link rel="stylesheet" href="style/intro.css">
   <link rel="stylesheet" href="style/features.css">
   <link rel="stylesheet" href="style/team.css">
-  <link rel="stylesheet" href="style/fares.css">
+  <link rel="stylesheet" href="style/footer.css">
   <link rel="stylesheet" href="style/action.css">
 
   <title>Document</title>
 </head>
 <body>
-  <div class="intro text-center">
+  <div class="header">
+    <div class="container buffer-both">
+      <div class="header-logo">
+        <img class="header-logo-image" src="images/logo.png" alt="$$$">
+      </div>
+      <div class="header-nav">
+        <ul>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="#intro">О нас</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="#team">Команда</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="#prices">Цены</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="#buy">Купить</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+  <div class="intro text-center" id="intro">
     <img class="intro-logo" src="images/air.png" alt="[Лого]">
     <h1 class="title-large">Мы делае воздух!</h1>
     <h2 class="text-lead">Покупайте наш самый высококачественный воздух.Бесплатная доставка в течении нескольких часов после оплаты</h2>
@@ -73,14 +97,14 @@
     </div>
   </div>
 
+
   <div class="team" id="team">
     <div class="container">
-      <div class="text-center">
-        <h2 class="title-small margin-top">Мы гордимся нашей командой</h2>
-        <p class="text-lead">Лед тронулся, господаприсяжные-заседатели</p>
-      </div>
-      <div class="flex">
-        <div class="team-members">
+        <div class="text-center">
+          <h2 class="title-small margin-top">Мы гордимся нашей командой</h2>
+          <p class="text-lead">Лед тронулся, господаприсяжные-заседатели</p>
+        </div>
+        <div class="team-members flex">
           <div class="column-1-2 buffer-top">
             <div class="team-member">
               <div class="member-image">
@@ -90,8 +114,7 @@
                 <h3 class="title-small">Остап Бендер</h3>
                 <small class="text-small">Командовать парадом будет он</small>
                 <p class="text-medium">ЧРазве может быть что-то более приятное, чем расправить плечи и полной грудью вдохнуть чистый горный или морской воздух? Глубокий вдох — и ваши лёгкие наполняет живительная сила…</p>
-              
-                <div class="member-spcial">
+                <div class="member-social">
                   <img class="member-social-icon" src="images/social/facebook.png" alt="/">
                   <img class="member-social-icon" src="images/social/twitter.png" alt="/">
                   <img class="member-social-icon" src="images/social/youtube.png" alt="/">
@@ -109,7 +132,7 @@
                 <h3 class="title-small">Киса Воробьянинов</h3>
                 <small class="text-small">Полагает, торг уместен</small>
                 <p class="text-medium">Можно ли представить себе жизнь без воздуха? Разумеется, нет, ведь дышим мы всю жизнь, с момента рождения и до самой смерти. Для нас, людей, дыхание — это рефлекс, мы не задумываемся над тем, чтобы дышать, мы просто делаем это.</p>
-                <div class="member-spcial">
+                <div class="member-social">
                   <img class="member-social-icon" src="images/social/facebook.png" alt="/">
                   <img class="member-social-icon" src="images/social/twitter.png" alt="/">
                   <img class="member-social-icon" src="images/social/youtube.png" alt="/">
@@ -119,7 +142,74 @@
           </div>
         </div>
       </div>
+
+
+  <div class="container" id="prices">
+      <div class="text-center">
+        <h2 class="title-medium">Цены на воздух</h2>
+        <h2 class="title-small">Прозрачны и легки</h2>
+        <h3 class="text-small">Если Вы не успеете надышаться нашим воздухом перед смертью, мы вернем Вам деньги</h3>
+      </div>
+
+      <div class="flex justify-content">
+        <div class="text-center price">
+          <div class="border">
+            <h2 class="title-small">Базовый</h2>
+            <h2 class="text-medium">Минимальный объем</h2>
+          </div>
+          <div class="border2">
+            <h2 class="text-small">1 литр</h2>
+            <h2 class="text-small">2 трубочки</h2>
+            <p class="text-lead">500 грн.</p>
+          </div>
+          <div class="border-button">
+            <a class="button button-green" href="#">Заказать</a>
+          </div>
+        </div>
+        
+        <div class="text-center price">
+          <div class="border">
+            <h2 class="title-small">Оптимальный</h2>
+            <h2 class="text-medium">Хит продаж</h2>
+          </div>
+          <div class="border2">
+            <h2 class="text-small">5 литров</h2>
+            <h2 class="text-small">20 трубочек</h2>
+            <p class="text-lead">1500 грн.</p>
+          </div>
+            <div class="border-button">
+            <a class="button button-green" href="#">Заказать</a>
+          </div>
+        </div>
+
+        <div class="text-center price">
+          <div class="border">
+            <h2 class="title-small">Супер+</h2>
+            <h2 class="text-medium">Все включено</h2>
+          </div>
+          <div class="border2">
+            <h2 class="text-small">20 литров</h2>
+            <h2 class="text-small">50 трубочек</h2>
+            <p class="text-lead">5000 грн.</p>
+          </div>
+          <div class="border-button">
+            <a class="button button-green" href="#">Заказать</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer" id="buy">
+      <div class="container flex justify-content">
+        <div class="footer-width">
+          <img class="action-image" src="images/banka.png" alt="banka">
+        </div>
+        <div class="footer-width text-center">
+          <h1 class="title-small text-center">Закажи наш воздух и дыши полной грудью</h1>
+          <a class="button button-green" href="#">Заказать</a>
+        </div>
+      </div>
     </div>
   </div>
+  
 </body>
 </html>

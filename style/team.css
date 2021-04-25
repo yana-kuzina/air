@@ -35,8 +35,14 @@
 }
 
 .member-social {
-  background: #fff;
+  background-color: #fff;
   border-radius: 3px;
   display: inline-block;
   padding: 8px 20px 5px;
+}
+
+@media (max-width: 760px) {
+  .team-members {
+    text-align: center;
+  }
 }
